@@ -87,6 +87,8 @@ Evidencia del uso del cliente Swagger UI (`http://localhost:8080/swagger-ui.html
 - `GET /api/productos/{id}`
 - `DELETE /api/productos/{id}`
 
+---
+
 ![swagger-ui](evidencias/swagger-ui.png)
 
 #### Crear Producto
