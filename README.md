@@ -1,4 +1,4 @@
-# 📦 Gestión de Productos - Spring Boot
+# Gestión de Productos - Spring Boot
 
 Este proyecto es una API REST desarrollada con **Spring Boot** como parte del **Parcial 1B**. Permite realizar operaciones CRUD (Crear, Leer, Eliminar) sobre una entidad `Producto` almacenada en una base de datos en memoria H2. También incluye pruebas unitarias con JUnit y Mockito, y documentación automática con Swagger.
 
@@ -7,7 +7,7 @@ Este proyecto es una API REST desarrollada con **Spring Boot** como parte del **
 
 ---
 
-## Tecnologías Utilizadas
+## 🔧 Tecnologías Utilizadas
 
 - Java 17
 - Spring Boot 3.4.4
@@ -67,14 +67,14 @@ Captura de la ejecución de pruebas unitarias con `ProductoServiceTest`.
 ./mvnw clean test
 ```
 
-**Resultado esperado:**
+ **Resultado esperado:**
 
 ![Pruebas unitarias](evidencias/pruebas-unitarias.png)
 
-> **Cómo tomar la captura**: 
-> - Ejecuta el comando en la terminal.
-> - Espera que finalice y muestre el resumen con `BUILD SUCCESS`.
-> - Captura toda la sección donde se ve el resultado de los tests, con `Tests run: X, Failures: 0, Errors: 0`.
+>  **Captura**: 
+> - Se ejecuta el comando en la terminal.
+> - Esperamos que finalice y muestre el resumen con `BUILD SUCCESS`.
+> - Se toma captura toda la sección donde se ve el resultado de los tests, con `Tests run: X, Failures: 0, Errors: 0`.
 
 ---
 
@@ -86,6 +86,8 @@ Evidencia del uso del cliente Swagger UI (`http://localhost:8080/swagger-ui.html
 - `POST /api/productos`
 - `GET /api/productos/{id}`
 - `DELETE /api/productos/{id}`
+
+![swagger-ui](evidencias/swagger-ui.png)
 
 #### Crear Producto
 
@@ -111,7 +113,7 @@ Evidencia del uso del cliente Swagger UI (`http://localhost:8080/swagger-ui.html
 
 ---
 
-####  Eliminar Producto
+#### Eliminar Producto
 
 ![DELETE producto](evidencias/swagger-delete-producto.png)
 
@@ -119,7 +121,7 @@ Evidencia del uso del cliente Swagger UI (`http://localhost:8080/swagger-ui.html
 
 ---
 
-##  Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 productos/
@@ -141,7 +143,9 @@ productos/
 
 ---
 
-##  Licencia
+## Licencia
 
 Este proyecto fue desarrollado para fines académicos como parte del **Parcial 1B** de la asignatura de **Lenguaje de Programación Avanzada 2**.
+
+---
 
