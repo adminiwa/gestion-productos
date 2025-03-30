@@ -7,7 +7,7 @@ Este proyecto es una API REST desarrollada con **Spring Boot** como parte del **
 
 ---
 
-## 🔧 Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - Java 17
 - Spring Boot 3.4.4
